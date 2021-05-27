@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Meu portifolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #e7e7e7;
+            padding: 20px;
+            font-family: Arial;
+        }
+        
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+        
+        .row {
+            margin: 8px -16px;
+        }
+        
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+        
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+        }
+        
+        @media screen and (max-width:900px) {
+            .column {
+                width: 50%;
+            }
+        }
+        
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+        
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Meu Portifolio</h1>
+        <hr />
+        <h2>Frank Willian Cardoso de Oliveira</h2>
+        <p>Sou formado formado em SI pela Unipar - turma 2007. Especialista em desenvolvimento web pela UEM, etc.</p>
+        <p>Meus contatos: (44) 9 9999-9999</p>
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem1.png" alt="Imagem de teste sem conteúdo" style="width: 100%;">
+                    <h3>Site Hyperx</h3>
+                    <p> Lorem ipsum at porttitor eu facilisis vehicula fusce, fames sed quis leo malesuada leo, conubia netus quisque vulputate sit magna. cras orci magna posuere hendrerit hac lacinia cursus vel, nec hac velit iaculis at suscipit per, class
+                        nulla donec nibh suscipit donec tortor leo, suspendisse sit phasellus a sapien quisque. </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem2.png" alt="Imagem de teste sem conteúdo" style="width: 100%;">
+                    <h3>Aplicativo Delivery</h3>
+                    <p> Lorem ipsum at porttitor eu facilisis vehicula fusce, fames sed quis leo malesuada leo, conubia netus quisque vulputate sit magna. cras orci magna posuere hendrerit hac lacinia cursus vel, nec hac velit iaculis at suscipit per, class
+                        nulla donec nibh suscipit donec tortor leo, suspendisse sit phasellus a sapien quisque. </p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem3.png" alt="Imagem de teste sem conteúdo" style="width: 100%;">
+                    <h3>Sistema Comercial</h3>
+                    <p> Lorem ipsum at porttitor eu facilisis vehicula fusce, fames sed quis leo malesuada leo, conubia netus quisque vulputate sit magna. cras orci magna posuere hendrerit hac lacinia cursus vel, nec hac velit iaculis at suscipit per, class
+                        nulla donec nibh suscipit donec tortor leo, suspendisse sit phasellus a sapien quisque. </p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="./imagens/imagem4.png" alt="Imagem de teste sem conteúdo" style="width: 100%;">
+                    <h3>Site Portal</h3>
+                    <p> Lorem ipsum at porttitor eu facilisis vehicula fusce. </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <img src="./imagens/imagemGeral.png" style="width: 100%;" />
+            <h3>Sistema de Gestão Empresarial</h3>
+            <p> Lorem ipsum quis congue dolor justo hac ultricies torquent sit aliquam, cras auctor viverra aliquam at litora curabitur dapibus sagittis faucibus, dictum leo sem rhoncus ornare a erat blandit nisi. elementum erat nisi phasellus cubilia a fringilla
+                sem sociosqu vestibulum, sapien metus vivamus auctor vitae scelerisque hac morbi, condimentum dui arcu aliquam per pulvinar turpis mattis. praesent turpis sodales augue nunc lectus adipiscing faucibus quam sit, rhoncus augue litora tristique
+                cursus imperdiet luctus interdum. suscipit nec tincidunt tempus nisi velit sem quisque venenatis aliquet, pharetra habitant dictum convallis in praesent eros tristique, leo aliquet odio lorem aliquam ad mattis vitae. </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
